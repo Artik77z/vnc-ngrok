@@ -29,24 +29,14 @@ print (' ')
 
 auth = str(input())
 
-print ('Set a password for the VNC:')
 
-print (" ")
+os.system("sudo apt-get install tightvnc")
 
-passwd = input()
-
+os.system("sudo vncpasswd")
 
 os.system("sudo apt-get -y install wget")
 
 os.system("sudo apt-get -y install curl")
-
-os.system("wget -qO- https://dl.bintray.com/tigervnc/stable/tigervnc-1.8.0.x86_64.tar.gz | tar xz --strip 1 -C /")
-
-os.system("mkdir ~/.vnc")
-
-os.system("echo " + str(passwd) +" | vncpasswd -f >> ~/.vnc/passwd")
-
-os.system("chmod 600 ~/.vnc/passwd")
 
 os.system("sudo apt-get -y install xfce4")
 
@@ -71,7 +61,7 @@ if whichos == ("3"):
 else:
     pass
 
-os.system('vncserver -localhost no')
+
 
 os.system("./ngrok authtoken "+ auth)
 
