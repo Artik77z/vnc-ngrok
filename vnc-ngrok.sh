@@ -12,7 +12,7 @@ echo '
 '
 
 echo "Insert your ngrok authtoken. If you don't know how to proceed read the readme file."
-echo '!! FOR ACCESSINNG TO THE RDP COPY "forwarding" AND PASTE IT INTO YOU VNC VIEWER !!'
+echo '!! FOR ACCESSINNG TO THE RDP, COPY "forwarding" AND PASTE IT INTO YOU VNC VIEWER !!'
 echo ' '
 read auth
 sudo apt-get install tightvncserver
