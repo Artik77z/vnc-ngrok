@@ -27,11 +27,14 @@ print ('!! FOR ACCESSINNG TO THE RDP, COPY "forwarding" AND PASTE IT INTO YOU VN
 
 print (' ')
 
+auth = str(input())
+
 print ('Set a password for the VNC:')
+
+print (" ")
 
 passwd = input()
 
-auth = str(input())
 
 os.system("sudo apt-get -y install wget")
 
