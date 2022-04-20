@@ -48,7 +48,11 @@ os.system("echo " + str(passwd) +" | vncpasswd -f >> ~/.vnc/passwd")
 
 os.system("chmod 600 ~/.vnc/passwd")
 
-os.system("sudo apt-get -y install xfce4 xfce4-goodies")
+os.system("sudo apt-get -y install xfce4")
+
+os.system("sudo apt-get -y install xfce4-goodies")
+
+os.system("sudo apt-get purge -y pm-utils xscreensaver*")
 
 
 if whichos == ("1"):
