@@ -21,17 +21,18 @@ read auth
 sudo apt-get -y install tightvncserver
 sudo apt-get -y install xfce4 xfce4-goodies
 sudo xfce4-panel -r && xfwm4 --replace
-if ["$whichos" -eq "1"]; then
+if ["$whichos" -eq "1"] ; then
     curl https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip -o ngrok-stable-linux-amd64.zip
     unzip ngrok-stable-linux-amd64.zip
 fi
-if ["$whichos" -eq "2"]; then
+if ["$whichos" -eq "2"] ; then
     curl https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-arm64.zip -o ngrok-stable-linux-arm64.zip
     unzip ngrok-stable-linux-arm64.zip
 fi
-if ["$whichos" -eq "3"]; then
+if ["$whichos" -eq "3"] ; then
     curl https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-arm.zip -o ngrok-stable-linux-arm32.zip
     unzip ngrok-stable-linux-arm32.zip
+fi
 vncserver
 ./ngrok authtoken $auth
 echo 'Script runned successfully! Start VNC running in your shell "sh start-vnc.sh".'
