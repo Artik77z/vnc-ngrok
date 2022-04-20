@@ -11,6 +11,9 @@ echo '
                                                                                                   
 '
 
+echo "Press [1] if your system is x64, press [2] if your system is x86, or press [3] if your system is arm:"
+echo ''
+read whichos
 echo "Insert your ngrok authtoken. If you don't know how to proceed read the readme file."
 echo '!! FOR ACCESSINNG TO THE RDP, COPY "forwarding" AND PASTE IT INTO YOU VNC VIEWER !!'
 echo ' '
