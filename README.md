@@ -8,7 +8,7 @@ This script downloads XFCE and through ngrok and without opening any port, creat
 
 Is very easy, you only need to clone this repository and run the script:
 
-### 1. Cloning the repo:
+### 1. Cloning the repository:
 
 ```
 git clone https://gitlab.com/Artik77z/vnc-ngrok.git
