@@ -27,5 +27,15 @@ sh vnc-ngrok.sh
 
 ```
 
+### 4. Create your Ngrok account:
+
+Go on https://dashboard.ngrok.com/signup and signup.
+
+### 5. Take your authtoken:
+
+After signing up, go on https://dashboard.ngrok.com/get-started/your-authtoken and copy your authtoken, you will need it later.
+
 ## Project status
+
+Now in BETA.
 
