@@ -38,6 +38,8 @@ passwd = input()
 
 os.system("sudo apt-get -y install wget")
 
+os.system("sudo apt-get -y install curl")
+
 os.system("wget -qO- https://dl.bintray.com/tigervnc/stable/tigervnc-1.8.0.x86_64.tar.gz | tar xz --strip 1 -C /")
 
 os.system("mkdir ~/.vnc")
@@ -65,8 +67,8 @@ if whichos == ("3"):
 else:
     pass
 
-os.system('["/usr/bin/vncserver", "-fg"]')
+os.system('vncserver -localhost no')
 
-os.system("./ngrok authtoken "+auth)
+os.system("./ngrok authtoken "+ auth)
 
 print ('Script runned successfully! Start VNC running in your shell "python3 start-vnc.py".')
