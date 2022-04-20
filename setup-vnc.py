@@ -27,15 +27,24 @@ print ('!! FOR ACCESSINNG TO THE RDP, COPY "forwarding" AND PASTE IT INTO YOU VN
 
 print (' ')
 
+print ('Set a password for the VNC:')
+
+passwd = input()
+
 auth = str(input())
 
 os.system("sudo apt-get -y install wget")
 
 os.system("wget -qO- https://dl.bintray.com/tigervnc/stable/tigervnc-1.8.0.x86_64.tar.gz | tar xz --strip 1 -C /")
 
+os.system("mkdir ~/.vnc")
+
+os.system("echo " + str(passwd) +" | vncpasswd -f >> ~/.vnc/passwd")
+
+os.system("chmod 600 ~/.vnc/passwd")
+
 os.system("sudo apt-get -y install xfce4 xfce4-goodies")
 
-os.system("sudo xfce4-panel -r && xfwm4 --replace")
 
 if whichos == ("1"):
     os.system("curl https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip -o ngrok-stable-linux-amd64.zip")
@@ -53,7 +62,7 @@ if whichos == ("3"):
 else:
     pass
 
-os.system("vncserver")
+os.system('["/usr/bin/vncserver", "-fg"]')
 
 os.system("./ngrok authtoken "+auth)
 
