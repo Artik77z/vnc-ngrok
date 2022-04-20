@@ -23,7 +23,7 @@ cd vnc-ngrok
 ### 3. Run the script:
 
 ```
-sh vnc-ngrok.sh
+sh setup_vnc.sh
 
 ```
 
