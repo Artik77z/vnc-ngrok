@@ -1,6 +1,6 @@
 # VNC-NGROK
 
-Add a desktop where you can't. (Only Linux)
+Add a desktop where you can't. (At the moment work only on Debian and Debian based like Ubuntu.)
 
 This script downloads XFCE and through ngrok and without opening any port, creates an rdp connection passing through the ngrok servers and showing the desktop through a vnc viewer.
 
