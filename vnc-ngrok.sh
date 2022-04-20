@@ -37,4 +37,4 @@ then
     unzip ngrok-stable-linux-arm32.zip
 vncserver
 ./ngrok authtoken $auth
-./ngrok tcp 127.0.0.1:5901
+echo 'Script runned successfully! Start VNC running in your shell "sh start-vnc.sh".'
