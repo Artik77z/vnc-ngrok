@@ -17,6 +17,7 @@ echo ' '
 read auth
 sudo apt-get install tightvncserver
 sudo apt-get install xfce4 xfce4-goodies
+sudo xfce4-panel -r && xfwm4 --replace
 curl https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip -o ngrok-stable-linux-amd64.zip
 unzip ngrok-stable-linux-amd64.zip
 vncserver
