@@ -30,7 +30,7 @@ print (' ')
 auth = str(input())
 
 
-os.system("sudo apt-get install tightvnc")
+os.system("sudo apt-get install tightvncserver")
 
 os.system("sudo vncpasswd")
 
