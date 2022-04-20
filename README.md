@@ -11,13 +11,13 @@ Is very easy, you only need to clone this repository and run the script:
 ### 1. Cloning the repo:
 
 ```
-git clone ....
+git clone https://gitlab.com/Artik77z/vnc-ngrok.git
 
 ```
 ### 2. Go in the folder:
 
 ```
-cd VNC-NGROK
+cd vnc-ngrok
 
 ```
 ### 3. Run the script:
