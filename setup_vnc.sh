@@ -18,6 +18,7 @@ echo "Insert your ngrok authtoken. If you don't know how to proceed read the rea
 echo '!! FOR ACCESSINNG TO THE RDP, COPY "forwarding" AND PASTE IT INTO YOU VNC VIEWER !!'
 echo ' '
 read auth
+sudo apt-get -y install git-all
 sudo apt-get -y install tightvncserver
 sudo apt-get -y install xfce4 xfce4-goodies
 sudo xfce4-panel -r && xfwm4 --replace
