@@ -58,5 +58,5 @@ sh start-vnc.sh
 
 ## Project status
 
-Now in Alpha.
+Latest release: 1.2
 
