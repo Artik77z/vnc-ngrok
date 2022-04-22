@@ -11,13 +11,13 @@ Is very easy, you only need to clone this repository and run the script:
 ### 1. Install git:
 
 ```
-sudo apt-get -y install git
+sudo apt-get update && sudo apt-get -y install git
 
 ```
 or 
 
 ```
-apt-get -y install git
+apt-get update && apt-get -y install git 
 
 ```
 
