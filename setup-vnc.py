@@ -1,5 +1,8 @@
 import os
 
+os.system('clear')
+
+print(' ')
 print ("Welcome to VNC for Ngrok installation!")
 
 
@@ -9,6 +12,8 @@ print (' ')
 
 whichos = str(input("select the system >>>"))
 
+print (' ')
+
 print ("Insert your ngrok authtoken. If you don't know how to proceed read the readme file.")
 
 print ('!! FOR ACCESSINNG TO THE RDP, COPY "forwarding" AND PASTE IT INTO YOU VNC VIEWER !!')
@@ -16,6 +21,8 @@ print ('!! FOR ACCESSINNG TO THE RDP, COPY "forwarding" AND PASTE IT INTO YOU VN
 print (' ')
 
 auth = str(input('Insert Ngrok token >>>'))
+
+print (' ')
 
 os.system("sudo apt-get -y install tightvncserver")
 
@@ -60,4 +67,6 @@ else:
 
 os.system("./ngrok authtoken "+ auth)
 
-print ('Script runned successfully! Start VNC running in your shell "sh start-vnc.sh"')
+print(' ')
+
+print ('Script runned successfully! Start VNC running in your shell: "sh start-vnc.sh"')
