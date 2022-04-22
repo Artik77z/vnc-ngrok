@@ -46,6 +46,10 @@ os.system("sudo apt-get -y install xfce4-goodies")
 
 os.system("sudo apt-get purge -y pm-utils xscreensaver*")
 
+os.system('wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb')
+
+os.system('sudo apt-get -y install ./google-chrome-stable_current_amd64.deb')
+
 
 
 if whichos == ("1"):
