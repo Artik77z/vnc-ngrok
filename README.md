@@ -14,6 +14,14 @@ Is very easy, you only need to clone this repository and run the script:
 sudo apt-get -y install git-all
 
 ```
+or 
+
+```
+sudo apt-get -y install git-all
+
+```
+
+if you are using Debian minimal server or Ubuntu docker image.
 
 ### 2. Cloning the repository:
 
