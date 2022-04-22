@@ -17,7 +17,7 @@ sudo apt-get -y install git-all
 or 
 
 ```
-sudo apt-get -y install git-all
+apt-get -y install git-all
 
 ```
 
