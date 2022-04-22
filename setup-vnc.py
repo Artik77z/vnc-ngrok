@@ -1,25 +1,13 @@
 import os
 
-print ("""
-
- ___      ___ ________   ________          ________   ________  ________  ________  ___  __       
-|\  \    /  /|\   ___  \|\   ____\        |\   ___  \|\   ____\|\   __  \|\   __  \|\  \|\  \     
-\ \  \  /  / | \  \\ \  \ \  \___|        \ \  \\ \  \ \  \___|\ \  \|\  \ \  \|\  \ \  \/  /|_   
- \ \  \/  / / \ \  \\ \  \ \  \            \ \  \\ \  \ \  \  __\ \   _  _\ \  \\\  \ \   ___  \  
-  \ \    / /   \ \  \\ \  \ \  \____        \ \  \\ \  \ \  \|\  \ \  \\  \\ \  \\\  \ \  \\ \  \ 
-   \ \__/ /     \ \__\\ \__\ \_______\       \ \__\\ \__\ \_______\ \__\\ _\\ \_______\ \__\\ \__\
-    \|__|/       \|__| \|__|\|_______|        \|__| \|__|\|_______|\|__|\|__|\|_______|\|__| \|__|
-                                                                                                  
-                                                                                                  
-                                                                                                  
- """)
+print ("Welcome to VNC for Ngrok installation!")
 
 
 print ("Press [1] if your system is x64 or x86, press [2] if your system is ARM64, or press [3] if your system is ARM32:")
 
 print (' ')
 
-whichos = str(input())
+whichos = str(input("select the system >>>"))
 
 print ("Insert your ngrok authtoken. If you don't know how to proceed read the readme file.")
 
@@ -27,11 +15,19 @@ print ('!! FOR ACCESSINNG TO THE RDP, COPY "forwarding" AND PASTE IT INTO YOU VN
 
 print (' ')
 
-auth = str(input())
+auth = str(input('Insert Ngrok token >>>'))
 
 os.system("sudo apt-get -y install tightvncserver")
 
+print(' ')
+print(' ')
+print('Select a password for your VNC connection.')
+print(' ')
+
 os.system("sudo vncpasswd")
+
+print(' ')
+print(' ')
 
 os.system("sudo apt-get -y install wget")
 
@@ -64,4 +60,4 @@ else:
 
 os.system("./ngrok authtoken "+ auth)
 
-print ('Script runned successfully! Start VNC running in your shell "python3 start-vnc.py".')
+print ('Script runned successfully! Start VNC running in your shell "sh start-vnc.sh"')
