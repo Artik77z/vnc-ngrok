@@ -48,11 +48,6 @@ os.system("sudo apt-get purge -y pm-utils xscreensaver*")
 
 os.system("echo "deb http://downloads.sourceforge.net/project/ubuntuzilla/mozilla/apt all main" | sudo tee -a /etc/apt/sources.list.d/ubuntuzilla.list > /dev/null")
 
-os.system("sudo apt-key -y adv --recv-keys --keyserver keyserver.ubuntu.com 2667CA5C")
-
-os.system("sudo apt-get -y update")
-
-os.system("sudo apt-get -y install firefox-mozilla-build")
 
 
 if whichos == ("1"):
