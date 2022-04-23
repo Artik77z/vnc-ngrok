@@ -26,7 +26,7 @@ if you are using Debian minimal server or Ubuntu docker image.
 ### 2. Cloning the repository:
 
 ```
-git clone https://gitlab.com/Artik77z/vnc-ngrok.git && cd-ngrok
+git clone https://gitlab.com/Artik77z/vnc-ngrok.git && cd vnc-ngrok
 
 ```
 
