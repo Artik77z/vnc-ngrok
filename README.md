@@ -26,30 +26,25 @@ if you are using Debian minimal server or Ubuntu docker image.
 ### 2. Cloning the repository:
 
 ```
-git clone https://gitlab.com/Artik77z/vnc-ngrok.git
+git clone https://gitlab.com/Artik77z/vnc-ngrok.git && cd-ngrok
 
 ```
-### 3. Go in the folder:
 
-```
-cd vnc-ngrok
-
-```
-### 4. Create your Ngrok account:
+### 3. Create your Ngrok account:
 
 Go on https://dashboard.ngrok.com/signup and signup.
 
-### 5. Take your authtoken:
+### 4. Take your authtoken:
 
 After signing up, go on https://dashboard.ngrok.com/get-started/your-authtoken and copy your authtoken, you will need it during the setup.
 
-### 6. Run the script:
+### 5. Run the script:
 
 ```
 sh setup-vnc.sh
 
 ```
-### 7. Start the Desktop:
+### 6. Start the Desktop:
 
 ```
 sh start-vnc.sh
@@ -58,5 +53,5 @@ sh start-vnc.sh
 
 ## Project status
 
-Latest release: 1.2
+Latest release: 1.4
 
