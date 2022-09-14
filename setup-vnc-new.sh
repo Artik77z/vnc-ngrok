@@ -27,6 +27,7 @@ sudo apt-get -y install ./google-chrome-stable_current_amd64.deb
 curl https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip -o ngrok-stable-linux-amd64.zip
 unzip ngrok-stable-linux-amd64.zip
 ./ngrok authtoken ${auth}
+echo '2' | sudo update-alternatives --config x-terminal-emulato
 echo ' '
 echo 'Script runned successfully! Start VNC running in your shell: "sh start-vnc.sh'
 echo ' '
