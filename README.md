@@ -10,7 +10,7 @@ This script downloads XFCE and through ngrok and without opening any port, creat
 
 The requirements are sudo and git, install them via the following command.
 ```
-apt-get update && apt-get install git sudo
+apt-get update && apt-get -y install git sudo
 
 ```
 ### 2. Clone the repository:
