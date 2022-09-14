@@ -21,6 +21,7 @@ sudo apt-get -y install wget
 sudo apt-get -y install curl
 sudo apt-get -y install xfce4
 sudo apt-get -y install xfce4-goodies
+sudo apt-get -y install x11vnc
 sudo apt-get purge -y pm-utils xscreensaver*
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt-get -y install ./google-chrome-stable_current_amd64.deb
