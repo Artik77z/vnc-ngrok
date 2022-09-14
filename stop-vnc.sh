@@ -1,2 +1,2 @@
-vncserver -kill
+sudo vncserver -kill
 echo 'Stopped VNC!'
