@@ -28,8 +28,8 @@ curl https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip -o ngrok-
 unzip ngrok-stable-linux-amd64.zip
 ./ngrok authtoken ${auth}
 echo '2' | sudo update-alternatives --config x-terminal-emulator
-wget https://pastebin.com/raw/Ndikz6WB -P ~/Desktop
-mv ~/Desktop/Ndikz6WB ~/Desktop/google-chrome.sh
+wget https://pastebin.com/raw/bEhinkxh -P ~/Desktop
+mv ~/Desktop/bEhinkxh ~/Desktop/google-chrome.sh
 chmod +x ~/Desktop/google-chrome.sh
 clear
 echo ' '
